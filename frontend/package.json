@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "postinstall": "npm rebuild"
+    "preview": "vite preview"
   },
   "dependencies": {
     "axios": "^1.10.0",
@@ -30,6 +29,6 @@
     "lightningcss": "0.0.0"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": "16.x"
   }
 }
