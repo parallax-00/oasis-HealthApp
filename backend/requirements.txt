@@ -1,15 +1,5 @@
 absl-py==2.3.1
-aext-assistant @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_5eaau4zbw7/croot/aext-assistant_1734643296991/work
-aext-assistant-server @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_163phnmju4/croot/aext-assistant-server_1734640071251/work
-aext-core @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_aabfvxuq33/croot/aext-core_1734637785459/work
-aext-core-server @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c317foj9pq/croot/aext-core-server_1734635080634/work
-aext-panels @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_59_qqis9gs/croot/aext-panels_1734643297892/work
-aext-panels-server @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_9ed525khtx/croot/aext-panels-server_1734639709772/work
-aext-project-filebrowser-server @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_85xwwcawjg/croot/aext-project-filebrowser-server_1734687626319/work/backend_lib/project_filebrowser
-aext-share-notebook @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_4b7k7zizjg/croot/aext-share-notebook_1734642867166/work
-aext-share-notebook-server @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_cegse2p2g2/croot/aext-share-notebook-server_1734639665837/work
-aext-shared @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_8azeq5ce0i/croot/aext-shared_1734622531164/work
-aext-toolbox @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_9cta96lq0z/croot/anaconda-toolbox_1734694563462/work
+-assistant @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_5eaau4zbw7/croot/
 aiobotocore @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_1cl06d5vjc/croot/aiobotocore_1714464399334/work
 aiofiles==24.1.0
 aiohappyeyeballs @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_170hwh6b2i/croot/aiohappyeyeballs_1725434022310/work
@@ -78,7 +68,7 @@ conda-token @ file:///croot/conda-token_1718995751285/work
 conda_index @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_0au56q2_5k/croot/conda-index_1719338215248/work
 conda_package_streaming @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_6dgq200203/croot/conda-package-streaming_1718136087190/work
 constantly @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_efw7euxpjs/croot/constantly_1703165606144/work
-contourpy @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/contourpy_1701814001737/work
+contourpy==1.3.2
 cookiecutter @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_38jzqhs2jm/croot/cookiecutter_1711059824217/work
 cryptography @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_51oymkxnaj/croot/cryptography_1724940565328/work
 cssselect @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_47oh46v5h0/croot/cssselect_1707339886455/work
@@ -192,7 +182,7 @@ matplotlib-inline @ file:///Users/builder/cbouss/perseverance-python-buildout/cr
 mccabe @ file:///opt/conda/conda-bld/mccabe_1644221741721/work
 mdit-py-plugins @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/mdit-py-plugins_1699258689091/work
 mdurl @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/mdurl_1699237660008/work
-mediapipe==0.10.21
+mediapipe==0.10.14
 menuinst @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_ad321a45td/croot/menuinst_1723567614652/work
 mistune @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/mistune_1699258805653/work
 ml_dtypes==0.5.1
@@ -215,7 +205,7 @@ notebook @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_5
 notebook_shim @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/notebook-shim_1707340024494/work
 numba @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_adaws2bya8/croot/numba_1720607446395/work
 numexpr @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/numexpr_1699237935415/work
-numpy==1.26.4
+numpy==2.2.6
 numpydoc @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_69xghc3i3n/croot/numpydoc_1718279166747/work
 opencv-contrib-python==4.11.0.86
 opencv-python==4.12.0.88
