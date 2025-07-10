@@ -26,6 +26,6 @@
     "vite": "^7.0.3"
   },
   "overrides": {
-    "lightningcss": "1.21.0"
+    "lightningcss": "0.0.0"
   }
 }
