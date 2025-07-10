@@ -66,9 +66,13 @@ const WebcamCapture = () => {
       formData.append("frame", blob, "frame.png");
 
       const response = await axios.post(
-        "http://localhost:8000/analyze_frame",
+        `${import.meta.env.VITE_API_BASE_URL}/analyze_frame`, // ✅ uses env variable
         formData,
-        { headers: { "Content-Type": "multipart/form-data" } }
+        {
+          headers: {
+            "Content-Type": "multipart/form-data",
+          },
+        }
       );
 
       setAnalysisData(response.data.feedback);
