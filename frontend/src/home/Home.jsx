@@ -3,6 +3,7 @@ import WebcamCapture from "../components/WebcamCapture";
 import VideoUploadForm from "../components/VideoUploadForm";
 import VideoPlayerWithFeedback from "../components/VideoPlayerFeedback";
 import axios from "axios";
+const API = import.meta.env.VITE_API_BASE_URL;
 
 const Home = () => {
   const [mode, setMode] = useState("upload");
@@ -17,7 +18,7 @@ const Home = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:8000/analyze",
+        `${API}/analyze`,
         { filename },
         {
           headers: {
@@ -89,7 +90,7 @@ const Home = () => {
 
           {!isAnalyzing && uploadedFilename && analysisData && (
             <VideoPlayerWithFeedback
-              videoSrc={`http://localhost:8000/uploads/${uploadedFilename}`}
+              videoSrc={`${import.meta.env.VITE_API_BASE_URL}/uploads/${uploadedFilename}`}
               analysisData={analysisData}
             />
           )}
