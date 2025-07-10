@@ -15,7 +15,7 @@ app.include_router(analyze_frame.router)
 # Allow frontend access
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # Adjust if using a different frontend URL
+    allow_origins=["*"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
