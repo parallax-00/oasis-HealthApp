@@ -15,7 +15,10 @@ app.include_router(analyze_frame.router)
 # Allow frontend access
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  
+    allow_origins=[
+    "http://localhost:3000",
+    "https://oasis-health-app.vercel.app/",
+], 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -48,6 +51,5 @@ def analyze(request: AnalyzeRequest):
     if not os.path.exists(video_path):
 
         raise HTTPException(status_code=404, detail="File not found")
-    app.mount("/uploads", StaticFiles(directory=UPLOAD_DIR), name="uploads")
     result = analyze_video(video_path)
     return {"feedback": result}
