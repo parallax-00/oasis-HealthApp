@@ -90,7 +90,7 @@ const Home = () => {
 
           {!isAnalyzing && uploadedFilename && analysisData && (
             <VideoPlayerWithFeedback
-              videoSrc={`${import.meta.env.VITE_API_BASE_URL}/uploads/${uploadedFilename}`}
+              videoSrc={`${import.meta.env.VITE_API_BASE_URL}/upload/${uploadedFilename}`}
               analysisData={analysisData}
             />
           )}
