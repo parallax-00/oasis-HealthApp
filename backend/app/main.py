@@ -25,8 +25,8 @@ app.add_middleware(
 )
 
 UPLOAD_DIR = "backend/app/uploads"
-app.mount("/uploads", StaticFiles(directory=UPLOAD_DIR), name="uploads")
 os.makedirs(UPLOAD_DIR, exist_ok=True)
+app.mount("/uploads", StaticFiles(directory=UPLOAD_DIR), name="uploads")
 
 @app.post("/upload")
 async def upload_video(video: UploadFile = File(...)):
