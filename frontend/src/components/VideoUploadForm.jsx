@@ -48,7 +48,7 @@ const VideoUploadForm = ({ onUploadComplete }) => {
       setIsUploading(true);
       setUploadStatus("📤 Uploading...");
       const response = await axios.post(
-        `${import.meta.env.VITE_API_BASE_URL}/uploads`,
+        `${import.meta.env.VITE_API_BASE_URL}/upload`,
         formData,
         {
           headers: {
